@@ -8,6 +8,7 @@ Generating Vocabulary:
 Generating Predictions:
 	For generating predictions, the vocabulary from “myvocab.txt” is loaded and used in a new TfidfVectorizer along with the previously set parameters. This vectorizer is applied to both train and test datasets, generating dtm_train_1k and dtm_test_1k. The logistic regression classifier, utilizing an L2 penalty, liblinear solver, and max_iter 10000, is trained on dtm_train_1k and the corresponding sentiment from the train dataset. Predictions are then generated using the predict_proba function on previously generated dtm_test_1k. The performance evaluation is measured using the Area Under the Curve (AUC) via roc_auc_score, comparing the predicted probabilities of the sentiment being positive against the sentiment column from test_y.
 <br />
+<br />
 Section 2: Performance Metrics: 
 <br />
 Performance Metric: The metric used to evaluate the models was the Area Under the Curve (AUC). 
