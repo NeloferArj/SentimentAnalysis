@@ -17,11 +17,17 @@ Vocabulary size: 1,000 words
 Performance accuracy of the model on test data:
 <br />
 Fold	AUC	Execution Time (Seconds)
+<br />
 1	0.96309	16.76 secs
+<br />
 2	0.96171	16.36 secs
+<br />
 3	0.96179	16.07 secs
+<br />
 4	0.96291	18.77 secs
+<br />
 5	0.96197	15.86 secs
 <br />
 <br />
 Computer System: Windows, 2.11 GHz, 8GB memory for all 5/training test splits 
+Dataset: https://paperswithcode.com/dataset/imdb-movie-reviews
