@@ -31,4 +31,5 @@ Fold	AUC	Execution Time (Seconds)
 <br />
 <br />
 Computer System: Windows, 2.11 GHz, 8GB memory for all 5/training test splits 
+<br />
 Dataset: https://paperswithcode.com/dataset/imdb-movie-reviews
